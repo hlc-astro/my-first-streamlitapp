@@ -17,7 +17,8 @@ def load_data(path):
 
 
 #mpg_df_raw = load_data(path="./data/mpg.csv")
-mpg_df_raw = load_data(path="../holly_capelo/03_Visualization/data/mpg.csv")
+mpg_df_raw = load_data(path="./data/mpg.csv")
+#mpg_df_raw = load_data(path="../../holly_capelo/03_Visualization/data/mpg.csv")
 #./holly_capelo/03_Visualization/data
 mpg_df = deepcopy(mpg_df_raw)
 
